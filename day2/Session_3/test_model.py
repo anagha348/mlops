@@ -14,12 +14,12 @@ Requires: day2/Session_1/train.py to have been run first.
 from sklearn.metrics import accuracy_score
 
 
-ACCURACY_THRESHOLD = 0.90
+ACCURACY_THRESHOLD = 0.99
 
 
 def test_accuracy_above_threshold(trained_model, train_test_data):
     """
-    The model must reach 90% accuracy on the test set.
+    The model must reach 99% accuracy on the test set.
     If it drops below this, something went wrong with training
     and the model should not be deployed.
     """
